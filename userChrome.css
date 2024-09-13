@@ -1,0 +1,52 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#TabsToolbar, nav-bar {
+	height: 33px !important;
+}
+#TabsToolbar {
+	margin-top: 0px !important;
+	margin-left : 42vw !important;
+  margin-right: -34px !important;
+	padding-bottom: 0px !important;
+}
+
+#nav-bar {      
+	margin-bottom: 0px !important;
+	margin-top: -32px !important;
+	margin-right: 58vw !important;
+	/* border-top: transparent !important; */
+}
+
+/* Move hamburger menu to the right */
+#PanelUI-button {
+display: block !important;
+position: fixed !important;
+right: 0px !important;
+padding-top: 2px !important;
+}
+
+/* Move hamburger menu to the left
+#PanelUI-button,
+#customization-panel-container,
+#customization-panelWrapper.panel-arrow { 
+  -moz-box-ordinal-group: 0 !important;
+} */
+/* Disable new Proton UI and Restore Old Classic Theme in Mozilla Firefox - Start */
+.titlebar-color {
+}
+
+.tab-background {
+    border-radius: 0px 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.titlebar-buttonbox-container{
+	margin-right: 30px
+}
+/* Disable new Proton UI and Restore Old Classic Theme in Mozilla Firefox - End */
+
+/* Disable 'Extensions" button */
+#unified-extensions-button, #unified-extensions-button > .toolbarbutton-icon{
+width: 0px !important;
+padding: 0px !important;
+}
